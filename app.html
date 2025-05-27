@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
+    <title>Quiz Website</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/image/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/image/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/image/favicon.ico">
+    <link rel="manifest" href="/image/favicon.ico">
     <link rel="stylesheet" href="app.css">
 </head>
 
 <body>
     <div id="quiz-container">
-        <h1>Quiz App</h1>
+        <h1>NAVYUK QUIZ</h1>
 
         <div id="timer">
             Time left: <span id="time-left">100</span> seconds
@@ -17,9 +21,10 @@
 
         <div id="subject-selection">
             <h3>Select Subject</h3>
-            <button onclick="startQuiz('cLanguage')">cLanguage</button>
-            <button onclick="startQuiz('Html')">Html</button>
+            <button onclick="startQuiz('CLanguage')">C language</button>
+            <button onclick="startQuiz('HTML')">HTML</button>
             <button onclick="startQuiz('CSS')">CSS</button>
+            <button onclick="startQuiz('GeneralKnowledge')">General Knowledge</button> <!-- NEW BUTTON -->
         </div>
 
         <div id="quiz" style="display: none;">
